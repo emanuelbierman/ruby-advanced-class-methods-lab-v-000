@@ -2,15 +2,15 @@ class Song
   attr_accessor :name, :artist_name
   @@all = []
 
-  def initialize(name="", artist_name="")
-    @name = name
-    @artist_name = artist_name
-  end
-
-  # def self.pass_values(name, artist_name)
+  # def initialize(name="", artist_name="")
   #   @name = name
   #   @artist_name = artist_name
   # end
+
+  def self.pass_values(name, artist_name)
+    @name = name
+    @artist_name = artist_name
+  end
 
   def self.all
     @@all
