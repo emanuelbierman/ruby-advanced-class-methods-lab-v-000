@@ -7,7 +7,7 @@ class Song
   #   @artist_name = artist_name
   # end
 
-  def self.pass_(name)
+  def self.pass_name(name)
     @name = name
   end
 
