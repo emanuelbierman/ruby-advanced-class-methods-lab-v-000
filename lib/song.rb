@@ -52,7 +52,7 @@ class Song
     artist_name = filenames[0]
     mp3_name = filenames[1].split(".")
     name = mp3_name[0]
-    binding.pry
+    
 # ("Thundercat - For Love I Come.mp3")
   end
 
