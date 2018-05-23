@@ -23,7 +23,6 @@ class Song
   def self.create
     song = self.new
     self.pass_values
-    binding.pry
     song.save
     song
   end
