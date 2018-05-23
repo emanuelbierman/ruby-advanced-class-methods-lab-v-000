@@ -36,7 +36,7 @@ class Song
 
   def self.create_by_name(name)
     song = self.create
-    self.pass_values(name)
+    self.pass_name(name)
     song
   end
 
