@@ -12,7 +12,7 @@ class Song
   end
 
   # def self.pass_artist()
-  # 
+  #
   # end
 
   def self.all
@@ -32,12 +32,12 @@ class Song
   def self.new_by_name(name)
     self.create
     binding.pry
-    self.pass_values(name)
+    self.pass_name(name)
   end
 
   def self.create_by_name(name)
     song = self.create
-    self.name(name)
+    self.pass_values(name)
     song
   end
 
