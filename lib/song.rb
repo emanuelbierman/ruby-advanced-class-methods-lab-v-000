@@ -25,7 +25,7 @@ class Song
 
   def self.create
     song = self.new
-    if name == nil
+    if name != nil
       song.save
     end
     song
