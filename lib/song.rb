@@ -63,6 +63,7 @@ class Song
     name = mp3_name[0]
     song = self.create_by_name(name)
     song.artist_name = artist_name
+    song.save
     song
   end
 
