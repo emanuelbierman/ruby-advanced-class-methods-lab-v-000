@@ -54,7 +54,6 @@ class Song
     song = self.create_by_name(name)
     song.artist_name = artist_name
     song
-# ("Thundercat - For Love I Come.mp3")
   end
 
   def self.create_from_filename
