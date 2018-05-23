@@ -9,7 +9,6 @@ class Song
 
   def self.pass_name(name)
     @name = name
-    self.name
   end
 
   # def self.pass_artist()
