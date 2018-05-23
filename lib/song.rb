@@ -22,7 +22,7 @@ class Song
 
   def self.create
     song = self.new
-    self.pass_values(name, artist_name)
+    self.pass_values
     song.save
     song
   end
