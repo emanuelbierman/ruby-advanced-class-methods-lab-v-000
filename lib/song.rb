@@ -33,6 +33,7 @@ class Song
 
   def self.new_by_name(name)
     self.create
+    binding.pry
     self.pass_name(name)
   end
 
