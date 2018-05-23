@@ -46,6 +46,10 @@ class Song
     @@all.sort {|a,b| a.name <=> b.name}
   end
 
+  def new_from_filename
+
+  end
+
   def self.destroy_all
     @@all.clear
   end
