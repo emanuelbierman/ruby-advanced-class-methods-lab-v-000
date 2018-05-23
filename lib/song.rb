@@ -51,7 +51,8 @@ class Song
     artist_name = filenames[0]
     mp3_name = filenames[1].split(".")
     name = mp3_name[0]
-    self.create_by_name(name)
+    song = self.create_by_name(name)
+    song.artist_name = artist_name
 # ("Thundercat - For Love I Come.mp3")
   end
 
