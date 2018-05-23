@@ -25,6 +25,7 @@ class Song
     self.pass_values(name, artist_name)
     song.save
     song
+    binding.pry
   end
 
   def self.new_by_name(name)
