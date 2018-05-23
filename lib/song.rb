@@ -46,8 +46,9 @@ class Song
     @@all.sort {|a,b| a.name <=> b.name}
   end
 
-  def self.new_from_filename
-
+  def self.new_from_filename(filename)
+    
+# ("Thundercat - For Love I Come.mp3")
   end
 
   def self.create_from_filename
