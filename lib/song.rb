@@ -53,6 +53,7 @@ class Song
     name = mp3_name[0]
     song = self.create_by_name(name)
     song.artist_name = artist_name
+    song
 # ("Thundercat - For Love I Come.mp3")
   end
 
