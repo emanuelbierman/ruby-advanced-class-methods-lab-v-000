@@ -7,6 +7,11 @@ class Song
     @artist_name = artist_name
   end
 
+  def self.pass_values(name, artist_name)
+    @name = name
+    @artist_name = artist_name
+  end
+
   def self.all
     @@all
   end
