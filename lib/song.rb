@@ -51,6 +51,7 @@ class Song
     filenames = filename.split(" - ")
     name = filenames[0]
     artist_name = filenames[1]
+    binding.pry
 # ("Thundercat - For Love I Come.mp3")
   end
 
