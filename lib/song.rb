@@ -22,13 +22,13 @@ class Song
 
   def self.create
     song = self.new
-    self.pass_values
     song.save
     song
   end
 
   def self.new_by_name(name)
     self.create(name)
+    self.pass_values
   end
 
   def self.create_by_name(name)
