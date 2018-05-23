@@ -11,9 +11,9 @@ class Song
     @name = name
   end
 
-  def self.pass_artist()
-    
-  end
+  # def self.pass_artist()
+  # 
+  # end
 
   def self.all
     @@all
@@ -37,7 +37,7 @@ class Song
 
   def self.create_by_name(name)
     song = self.create
-    self.pass_values(name)
+    self.name(name)
     song
   end
 
