@@ -47,7 +47,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    
+    filenames = filename.split(" - ")
 # ("Thundercat - For Love I Come.mp3")
   end
 
